@@ -1,0 +1,83 @@
+/* Add some custom styles for the navbar */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #555;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Add some spacing and styling for the main content */
+  .container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .col {
+    margin-bottom: 30px;
+  }
+  
+  /* Style the project detail section */
+  .project-detail {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .project-detail h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .project-detail p {
+    color: #666;
+  }
+  
+  .project-detail img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the ratings section */
+  .ratings {
+    margin-top: 30px;
+  }
+  
+  .ratings h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .ratings select {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the submit button */
+  .ratings button {
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ratings button:hover {
+    background-color: #0056b3;
+  }
+  

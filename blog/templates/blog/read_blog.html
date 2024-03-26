@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block body %}
+<h4>{{blog.title}}:{{blog.sub_title}}</h4>
+<p>Uploaded at: {{blog.created_at}}</p>
+<br>
+<p>{{blog.content}}</p>
+{% endblock %}

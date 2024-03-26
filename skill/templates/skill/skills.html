@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block body%}
+<div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <h1>Skills:</h1>
+        <p>Below is a list of my skills and proficiency levels:</p>
+        {% for skill in skills %}
+        <div class="skill">
+          <h4>{{skill.technology}}</h4>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: {{skill.proficiency}}%;" aria-valuenow="{{skill.proficiency}}" aria-valuemin="0" aria-valuemax="100">{{skill.proficiency}}%</div>
+          </div>
+        </div>
+        {% endfor %}
+        
+        
+        
+        
+        <!-- Add more skills as needed -->
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
